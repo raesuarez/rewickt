@@ -1,0 +1,36 @@
+body{
+    background-color: #1a4019;
+    padding: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+h1{
+    text-align: left;
+    color: rgb(203, 255, 209);
+    padding-top: 20px
+}
+h2{
+    color:white
+}
+
+h3{
+    color: whitesmoke;
+}  
+
+h4{
+    color: rgb(155, 255, 172)
+}
+h6{
+    color: white
+}
+.card {
+    background-color: rgba(191, 255, 201, 0.696);
+}
+p{
+    color: white
+}
+a{
+    color: rgb(0, 26, 0)
+}
+a:hover {
+    color: rgb(3, 33, 3)
+  }
