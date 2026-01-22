@@ -29,11 +29,12 @@ p{
     color: white
 }
 a{
-    color: rgb(127, 255, 127)
+    color: rgb(114, 228, 114)
 }
 a:hover {
     color: rgb(3, 33, 3)
-  }
+}
+
 figure {
   float: right;
   width: 40%;
