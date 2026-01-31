@@ -1,7 +1,7 @@
 body{
     background-color: #1a4019;
     padding: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h1{
     text-align: left;
@@ -29,7 +29,7 @@ p{
     color: white
 }
 a{
-    color: rgb(114, 228, 114)
+    color:rgba(191, 255, 201, 0.696)
 }
 a:hover {
     color: rgb(3, 33, 3)
@@ -53,4 +53,43 @@ figcaption {
   font-style: italic;
   padding: 2px;
   text-align: center;
+  width:auto;
+}
+
+.new {
+  grid-area: new;
+}
+.adventure {
+  grid-area: adventure;
+  text-align: left;
+
+}
+.consumer {
+  grid-area: consumer;
+}
+.footer {
+  grid-area: subscribe;
+}
+.current{
+    grid-area: current;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 30% 30% 40%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "new new new"
+    "adventure adventure consumer"
+    "subscribe subscribe subscribe ";
+}
+  
+.container div {
+  background-color: #377635;
+  border: 1px solid black;
+  font-size: 20px;
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: left;
+  justify-content: space-evenly;
 }
